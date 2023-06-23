@@ -6,6 +6,7 @@ import About from './About'
 import Contact from './Contact'
 import Skills from './Skills'
 import Experience from './Experience'
+import MyProjects from './MyProjects'
 export default function Home() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function Home() {
         <About/>
         <Skills/>
         <Experience/>
+        <MyProjects/>
         <Contact/>
     <Footer/>
     </div>

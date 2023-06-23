@@ -9,28 +9,39 @@
     display: flex;
     flex-direction: row;
     width: 90%;
-    height: 400px;
+    height: 350px;
     justify-content: center;
-    background-color: rgba(30,30,30,1)
+    /* background-color: rgba(30,30,30,1); */
+    /* background:linear-gradient(340deg,#000000,#434343); */
+    background-color: rgba(135,249,212,0.06);
+
 }
 
 .experience-left-section{
     display: flex;  
     flex-direction: column;
-    justify-content: center;
     color: whitesmoke;
     width: 30%;
-    margin: 0% 2.5% 0% 2.5%;
+    height: 85%;
+    margin: 3% 2% 0% 2%;
     list-style: none;
-    background-color: #00ADB5;
+    background-color:#370486;
+    border-radius: 0px solid rgba(135,249,212,.06);
 }
 .experience-right-section{
     display: flex;
     flex-direction: column;
-    width: 45%;
-    margin: 0% 2.5% 0% 2.5%;
+    width: 55%;
+    height: 85%;
+    margin: 3% 2% 0% 2%;
     color: whitesmoke;
     background-color: #370486;
+    border-radius: 2%;
+}
+.experience-heading-and-animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .experience-heading{
     -webkit-text-fill-color: transparent;
@@ -39,9 +50,60 @@
     font-weight: 1000;
     font-size: 49px;
     letter-spacing: 0;
-    margin: 1% 0% 2% 2%;
+    margin:40% 0% 2% 4%;
     color: aliceblue;
     font-family: 'Jost';
     font-style: normal;
     
 }
+.experience-right-section-heading{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 2% 0% 0% 5%;
+}
+.experience-right-section-subheading{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 2% 0% 0% 5%;
+    
+}
+.a{
+    text-decoration: none;
+    color:#00ADB5;
+    
+}
+.a:hover{
+    color: crimson;
+}
+
+.experience-right-section-date{
+    margin: 3% 0% 0% 5%;
+}
+.experience-right-section-list{
+    margin: 4% 0% 0% 5%;
+    line-height: 34px;
+    
+}
+.experience-right-section-listitems{
+    list-style: none;
+    font-size: 17px;
+    color: #DAFFFB;
+    font-weight: 600;
+}
+.experience-right-section-listitems::before{
+    content: "\00BB";
+}
+.experience-left-section-butttons{
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0%;
+    /* color:#EEEEEE; */
+    color: black;
+    /* background:linear-gradient(0deg,#0F2027,#203A43,#2C5364); */
+    background-color: rgba(149, 117, 222,1);
+    /* border-radius: 0px solid rgba(135,249,212,0.06); */
+    cursor:pointer;
+}
+
