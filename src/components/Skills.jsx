@@ -68,9 +68,11 @@ function HandleClick(event){
         </div>}
         
       </div>
-      <div className='skills-animation'>
-      <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_1elvfrxr.json"  background="transparent"  speed="1"  style={{width: "500px", height: "500px"}}  loop autoplay></lottie-player>
-      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <div className='skills-right-section'>
+      {/* <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_1elvfrxr.json"  background="transparent"  speed="1"  style={{width: "500px", height: "500px"}}  loop autoplay></lottie-player>
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> */}
+      {/* <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_hueeaqbh.json"  background="transparent"  speed="1"  style={{width: "200px", height: "200px"}}  loop  autoplay></lottie-player> */}
       </div>
     </div>
 

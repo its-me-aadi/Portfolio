@@ -4,8 +4,6 @@ import ProjectsData from "../Projects.json"
 import "../styles/projects.css"
 export default function MyProjects() {
 
-
-
   return (
     <div className='myprojects'>
         <div style={{display:'flex'}}>
@@ -13,7 +11,7 @@ export default function MyProjects() {
                 My Projects
             </div>
             <div>
-               <a href="https://github.com/its-me-aadi/its-me-aadi" target='blank'> Github</a>
+               <a href="https://github.com/its-me-aadi/its-me-aadi" target='blank' className='a-project'> Github</a>
             </div>   
         </div>
         <div className='projects'>

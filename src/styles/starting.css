@@ -1,5 +1,6 @@
 .starting{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     height: fit-content;
 }
@@ -16,6 +17,9 @@
 .starting-animation{
     display: block;
     margin-top: 3%;
+    position:relative;
+     top:20px;
+     right:10%;
 }
 .starting-heading{
     -webkit-text-fill-color: transparent;
@@ -47,14 +51,15 @@
 }
 @keyframes typing {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 80% }
   }
 .starting-paragraph{
-    letter-spacing:0;
-    line-height: 25px;
-    font-size: 20px;
+    letter-spacing:1px;
+    line-height: 28px;
+    font-size: 22px;
     font-weight: 500;
     font-family: 'Jost';
     font-style: normal;
 }
 
+ 

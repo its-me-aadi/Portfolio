@@ -14,9 +14,11 @@
     
     /* background-color: rgba(30,30,30,0.9); */
 }
-.skills-animation{
+.skills-right-section{
     display: block;
-    margin-top: 3%;
+    width: 43%;
+    background-color: #1D2671;
+    /* margin-top: 3%; */
 }
 .skills-heading{
     -webkit-text-fill-color: transparent;
@@ -69,3 +71,4 @@
 .skills-skill-button:hover{
     transform: scale(1.05);
 }
+

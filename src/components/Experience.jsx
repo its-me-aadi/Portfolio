@@ -3,7 +3,7 @@ import "../styles/experience.css"
 export default function Experience() {
 
     const styless = {
-        borderLeft: "8px solid #370486",
+        borderLeft: "8px solid whitesmoke",
     }
     const [verticalLine, setVerticalLine] = useState({
         button1: styless,

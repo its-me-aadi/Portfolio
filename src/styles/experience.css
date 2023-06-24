@@ -100,9 +100,10 @@
     font-weight: 500;
     margin-top: 0%;
     /* color:#EEEEEE; */
-    color: black;
+    color: whitesmoke;
     /* background:linear-gradient(0deg,#0F2027,#203A43,#2C5364); */
-    background-color: rgba(149, 117, 222,1);
+    /* background-color: rgba(149, 117, 222,1); */
+    background-image: url("https://img.freepik.com/premium-photo/remote-corner-universe_94937-265.jpg?w=1060");
     /* border-radius: 0px solid rgba(135,249,212,0.06); */
     cursor:pointer;
 }

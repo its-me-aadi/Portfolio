@@ -21,8 +21,11 @@ export default function About() {
         </div>
       </div>
       <div>
+        {/* <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_tr1pjkop.json" background="transparent" speed="1" style={{ width: "400px", height: "400px" }} loop autoplay></lottie-player> */}
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_tr1pjkop.json" background="transparent" speed="1" style={{ width: "400px", height: "400px" }} loop autoplay></lottie-player></div>
+<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_ZQhQzO.json"  background="transparent"  speed="1"  style={{ width: "400px", height: "400px" ,position:"relative",top:"100px",rotate:"270deg"}}  loop  autoplay></lottie-player>
+        </div>
     </div>
   )
 }
