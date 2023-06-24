@@ -2,16 +2,16 @@
 
 {
     "name":"Restuarant",
-    "githubLink":"",
+    "githubLink":false,
     "projectLink":"",
-    "summary":"",
+    "summary":"Web Application that helps the user to book a table in his favourite retuarant with many differnt features like estimated waiting time.",
     "skills":["Mongo DB","Express Js","Node Js","React Js"]
 },
 {
-    "name":"Zomato",
-    "githubLink":"",
+    "name":"Tomato",
+    "githubLink":false,
     "projectLink":"",
-    "summary":"",
+    "summary":"Tomato is a web application that make the user's life easy by letting he/she order the food online(Inspired by Zomato)",
     "skills":["Mongo DB","Express Js","Node Js","React Js"]
 }
 ,
@@ -19,7 +19,7 @@
     "name":"News Letter",
     "githubLink":"",
     "projectLink":"",
-    "summary":"",
+    "summary":"It is a web application where the user can easily read other's article as well as can publish his own articles.",
     "skills":["Mongo DB","Express Js","Node Js","EJS"]
 }
 ,
@@ -27,21 +27,21 @@
     "name":"Secrets",
     "githubLink":"",
     "projectLink":"",
-    "summary":"",
+    "summary":"Web application that is fully secured i.e. your secrets can be accessed by you only, no one can hack and get your password",
     "skills":["Mongo DB","Express Js","Node Js","EJS"]
 }
 ,{
     "name":"to-do List",
     "githubLink":"",
     "projectLink":"",
-    "summary":"",
+    "summary":"To-do List is a web application that helps the user to create a list of tasks that he need to perform.",
     "skills":["Mongo DB","Express Js","Node Js","EJS"]
 },
 {
     "name":"Keeper App",
     "githubLink":"",
     "projectLink":"",
-    "summary":"",
+    "summary":"Web Application that helps you to store different things along with their discription.",
     "skills":["HTMl","CSS","JS","React Js"]
 }
 

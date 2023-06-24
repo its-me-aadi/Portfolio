@@ -1,0 +1,19 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.contact-heading{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image:linear-gradient(100.51deg, #984ED6 0%, #370486 100%);
+    font-weight: 1000;
+    font-size: 58px;
+    /* letter-spacing: 0; */
+    margin:12% 0% 0% 0%;
+    color: aliceblue;
+    font-family: 'Jost';
+    font-style: normal;
+}

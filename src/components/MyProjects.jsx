@@ -8,6 +8,15 @@ export default function MyProjects() {
 
   return (
     <div className='myprojects'>
+        <div style={{display:'flex'}}>
+            <div className='heading'>
+                My Projects
+            </div>
+            <div>
+               <a href="https://github.com/its-me-aadi/its-me-aadi" target='blank'> Github</a>
+            </div>   
+        </div>
+        <div className='projects'>
         {ProjectsData.map(projectData=>{
             return(
                 <ProjectCard 
@@ -19,6 +28,8 @@ export default function MyProjects() {
                 />
             )
         })}
+        </div>
     </div>
+    
   )
 }

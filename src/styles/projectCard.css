@@ -1,24 +1,40 @@
 .card-body{
-    width:28em;
+    width:22em;
     height: 20em;
     color: aliceblue;
-    background-color: grey;
-    margin: 2% 4% 2% 4%;
+    background-color: rgba(30,30,30,0.9);;
+    margin: 2% 2% 2% 2%;
+    border-radius: 4px;
 }
-
-.card-heading{
+.card-logo{
+    /* color: brown;
+    position: relative;
+    top: 10px;
+    left: 10px; */
+    color: #e8f9fd;
+    
+}
+.card-icons-row{
     display: flex;
     justify-content: space-between;
+    margin: 12px 0px 0px 5px;
+
 }
-.card-heading-links{
+.card-iconrow-links{
     display: flex;
 }
-.card-heading-link{
-    margin: 0% 10px 0% 2px;
+.card-iconrow-link{
+    margin: 0% 10px 0% 0px;
+}
+.card-heading{
+    margin:3% 0% 0% 2%;
+    font-size: 28px;
+    font-weight: 600;
 }
 .card-footer{
-    /* position: relative;
-   top: 10%; */
-    /* float: right; */
+   display: flex;
     color: aliceblue;
+}
+.card-footer-skills{
+    margin: 0% 3% 0% 2%;
 }
