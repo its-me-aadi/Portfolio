@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import 'animate.css';
 import "../styles/starting.css"
 export default function Starting() {
     const [heading,setHeading]=useState({
@@ -35,7 +36,7 @@ export default function Starting() {
     <div style={{marginTop:"3%"}} className='starting'>
       <div className='starting-left-section'>
         <div className='starting-heading'>
-          <h1 >Aditya Sharma</h1>
+          <h1>Aditya Sharma</h1>
         </div>
         <div>
           {heading.h1 && <h2 className='starting-subheading'>Full Stack Developer</h2>}

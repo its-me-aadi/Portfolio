@@ -1,8 +1,85 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "../styles/projectCard.css"
+import Restuarant from "../Assets/Restuarant.png"
+import Tomato from "../Assets/Zomato.png"
+import Todolist from "../Assets/Todolist.png"
+import Keeper from "../Assets/Keeper.png"
+import Secrets from "../Assets/Secrets.png"
+import NewsLetter from "../Assets/Newsletter.png"
+
 export default function ProjectCard(props) {
+    const [backgroundImage,setBackgroundImage]=useState({
+        backgroundImage: `url(${Tomato})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "22em 20em"
+    })
+    function Image(){
+        if(props.name==="News Letter"){
+            setBackgroundImage(prevValue=>{
+                return{
+                    ...prevValue,
+                    backgroundImage: `url(${NewsLetter})`,
+                }
+            })
+        }
+        else if(props.name==="Secrets"){
+            setBackgroundImage(prevValue=>{
+                return{
+                    ...prevValue,
+                    backgroundImage: `url(${Secrets})`,
+                }
+            })
+        }
+        else if(props.name==="to-do List"){
+            setBackgroundImage(prevValue=>{
+                return{
+                    ...prevValue,
+                    backgroundImage: `url(${Todolist})`,
+                }
+            })
+        }
+        else if(props.name==="Keeper App"){
+            setBackgroundImage(prevValue=>{
+                return{
+                    ...prevValue,
+                    backgroundImage: `url(${Keeper})`,
+                }
+            })
+        }
+        else if(props.name==="Restuarant"){
+            setBackgroundImage(prevValue=>{
+                return{
+                    ...prevValue,
+                    backgroundImage: `url(${Restuarant})`,
+                }
+            })
+        }
+        else{
+            setBackgroundImage(prevValue=>{
+                return{
+                    ...prevValue,
+                    backgroundImage: `url(${Tomato})`,
+                }
+            })
+        }
+        
+    }
+    useEffect(Image,[])
+
+    function MouseHover(){
+        setBackgroundImage(prevValue=>{
+            return{
+                ...prevValue,
+                backgroundImage:"none"
+            }
+        })
+    }
+    function MouseLeave(){
+        Image()
+    }
+
     return (
-        <div className='card-body'>
+        <div style={backgroundImage} className='card-body' onMouseOver={MouseHover} onMouseLeave={MouseLeave}>
             <div className='card-icons-row'>
                 <div className='card-logo'>
                     <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 11V4.6C2 4.26863 2.26863 4 2.6 4H8.77805C8.92127 4 9.05977 4.05124 9.16852 4.14445L12.3315 6.85555C12.4402 6.94876 12.5787 7 12.722 7H21.4C21.7314 7 22 7.26863 22 7.6V11M2 11V19.4C2 19.7314 2.26863 20 2.6 20H21.4C21.7314 20 22 19.7314 22 19.4V11M2 11H22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>

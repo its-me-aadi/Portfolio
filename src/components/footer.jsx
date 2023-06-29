@@ -4,7 +4,7 @@ export default function Footer() {
     var dt= new Date();
     var year=dt.getFullYear();
     return (
-        <footer>
+        <footer id="home">
             <div className='footer'>
                 <div style={{display:"flex",justifyContent:"center",height:"20px"}}>
                     <a href="mailto:itsadityasharma7124@gmail.com" title="Email me" rel="me" target="_blank" className="a-email" >itsadityasharma7124@gmail.com</a>

@@ -32,7 +32,9 @@
     order: 0;
     flex-grow: 0;
 }
-
+.navbar-logo {
+    cursor: pointer;
+}
 .navbar-links {
     margin-top: 1%;
     font-family: 'Jost';
@@ -49,11 +51,15 @@
 
 }
 
-.navbar-links-p {
+.navbar-links-a{
     width: 101px;
     height: 36px;
     margin: 0px 10px 0px 10px;
-    
+    text-decoration: none;
+    color: rgba(232,249,253,.7);
+}
+.navbar-links-p:hover{
+    cursor: pointer;
 }
 
 .navbar-button {

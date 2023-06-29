@@ -44,12 +44,12 @@ export default function Navbar() {
                     Logo
                 </div>
                 <div className='navbar-links'>
-                    <p className='navbar-links-p'  name="style1" >Home</p>
-                    <p className='navbar-links-p'  name="style2" >About</p>
-                    <p className='navbar-links-p'  name="style3" >Skills</p>
-                    <p className='navbar-links-p'  name="style4" >Experience</p>
-                    <p className='navbar-links-p'  name="style5" >My Projects</p>
-                    <p className='navbar-links-p'  name="style6" >Contact</p>
+                    <a href='#home' className='navbar-links-a' name="style1">Home</a>
+                    <p className='navbar-links-a'  name="style2" >About</p>
+                    <p className='navbar-links-a'  name="style3" >Skills</p>
+                    <p className='navbar-links-a'  name="style4" >Experience</p>
+                    <p className='navbar-links-a'  name="style5" >My Projects</p>
+                    <p className='navbar-links-a'  name="style6" >Contact</p>
                     <a href="https://www.canva.com/design/DAFZNCpa-Ko/bQfizvNu2nmIenf3dKQjpw/edit" target='blank'>
                     <p className='navbar-button'  name="style7" >Resume</p>
                     </a>

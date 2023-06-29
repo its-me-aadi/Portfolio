@@ -2,24 +2,18 @@
     width:22em;
     height: 20em;
     color: aliceblue;
-    background-color: rgba(30,30,30,0.5);;
+    background-color: rgba(30,30,30,0.5);
     margin: 2% 2% 2% 2%;
     border-radius: 4px;
     font-family: Poppins,sans-serif;
 }
 
 .card-logo{
-    /* color: brown;
-    position: relative;
-    top: 10px;
-    left: 10px; */
-    color: #73CCA8;;
+    display: none;
     
 }
 .card-icons-row{
-    display: flex;
-    justify-content: space-between;
-    margin: 12px 0px 0px 5px;
+    display: none; 
 
 }
 .card-iconrow-links{
@@ -29,23 +23,12 @@
     margin: 0% 10px 0% 0px;
 }
 .card-heading{
-    margin:3% 0% 0% 2%;
-    font-size: 28px;
-    font-weight: 600;
-    text-align: center;
+    display: none;
 }
 .card-discription{
-    /* font-family: Poppins,sans-serif; */
-    margin: 8% 0% 1% 2%;
-    font-size: 20px;
-    font-weight: 400;
     display: none;
 }
 .card-footer{
-    margin: 25% 0% 0% 2%;
-   display: flex;
-    color: aliceblue;
-    font-size: 12px;
     display: none;
 }
 .card-footer-skills{
@@ -60,20 +43,40 @@
 .a-project:hover{
     color: #73CCA8;
 }
+
 .card-body:hover{
-    /* position: relative;
-    bottom: 10px; */
-    background-color: rgba(30,30,30,1);
-    cursor:pointer; 
-    .card-heading{
+    width:22em;
+    height: 20em;
+    color: aliceblue;
+    background-color: rgba(30,30,30,0.5);
+    background-image: none;
+    margin: 2% 2% 2% 2%;
+    border-radius: 4px;
+    font-family: Poppins,sans-serif;
+    
+    .card-logo{
+        display: flex;
         color: #73CCA8;
+    }
+    .card-icons-row{
+        display: flex;
+    justify-content: space-between;
+    margin: 12px 0px 0px 5px;
+    }
+    .card-heading{
+        margin:3% 0% 0% 2%;
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        color: #73CCA8;
+        display: block;
     }
     .card-footer{
         margin: 25% 0% 0% 2%;
        display: flex;
         color: aliceblue;
         font-size: 12px;
-        display: flex;
+    
     }
     .card-discription{
         /* font-family: Poppins,sans-serif; */
