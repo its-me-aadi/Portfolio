@@ -5,7 +5,7 @@ import "../styles/projects.css"
 export default function MyProjects() {
 
   return (
-    <div className='myprojects'>
+    <div className='myprojects'  id="projects">
         <div style={{display:'flex'}}>
             <div className='heading'>
                 My Projects

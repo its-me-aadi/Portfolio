@@ -10,14 +10,14 @@ import MyProjects from './MyProjects'
 export default function Home() {
   return (
     <div>
-        <Navbar/>
-        <Starting/>
-        <About/>
-        <Skills/>
-        <Experience/>
-        <MyProjects/>
-        <Contact/>
-    <Footer/>
+      <Navbar />
+      <Starting />
+      <About />
+      <Skills />
+      <Experience />
+      <MyProjects />
+      <Contact />
+      <Footer />
     </div>
   )
 }

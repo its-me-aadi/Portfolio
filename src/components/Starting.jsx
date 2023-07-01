@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import 'animate.css';
 import "../styles/starting.css"
 export default function Starting() {
@@ -33,7 +33,7 @@ export default function Starting() {
     setTimeout( Heading,4000);
 
   return (
-    <div style={{marginTop:"3%"}} className='starting'>
+    <div className='starting' id="home">
       <div className='starting-left-section'>
         <div className='starting-heading'>
           <h1>Aditya Sharma</h1>

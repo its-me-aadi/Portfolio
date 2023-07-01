@@ -6,6 +6,7 @@
     margin: 2% 2% 2% 2%;
     border-radius: 4px;
     font-family: Poppins,sans-serif;
+    max-width: 80%;
 }
 
 .card-logo{

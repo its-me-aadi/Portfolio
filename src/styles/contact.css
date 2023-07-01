@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     color: aliceblue;
+    margin-top: 10%;
 }
 .contact-heading{
     -webkit-text-fill-color: transparent;
@@ -11,9 +12,25 @@
     background-image:linear-gradient(100.51deg, #984ED6 0%, #370486 100%);
     font-weight: 1000;
     font-size: 58px;
-    /* letter-spacing: 0; */
-    margin:10% 0% 0% 0%;
+    margin:2% 0% 0% 0%;
+    height: fit-content;
     color: aliceblue;
     font-family: 'Jost';
     font-style: normal;
+}
+.contact-animation{
+    margin-top:0%;
+    position:relative;
+    left:4.3%;
+}
+@media only screen and (max-width: 600px) {
+    .contact{
+        margin-top: 35%;
+    }
+    .contact-heading{
+    font-size: 44px;
+    }
+    .contact-animation{
+        transform: scale(0.7);
+    }
 }

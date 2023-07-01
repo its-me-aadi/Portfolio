@@ -3,6 +3,7 @@
     width: 100%;
     justify-content: space-between;
     height: fit-content;
+    margin-top: 3%;
 }
 .starting-left-section{
     display: flex;  
@@ -55,6 +56,7 @@
     to { width: 80% }
   }
 .starting-paragraph{
+    display: block;
     letter-spacing:1px;
     line-height: 28px;
     font-size: 22px;
@@ -68,11 +70,29 @@
     .starting {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        margin-top: 30px;
+        width: 100%;
+        max-width: 100%;
     }
     .starting-left-section{
+        display: flex;
+        justify-content: center;
         width: 100%;
-        margin: 0% 0% 0% 0%;
+    }
+    .starting-heading{
+        font-size: 23px;
+        font-weight: 900;
+    }
+    .starting-subheading{
+        font-size: 21px;
+        font-weight: 900;
+    }
+    .starting-paragraph{
+        width: 100%;
+    }
+    .starting-animation{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
     }
 }

@@ -45,14 +45,12 @@ export default function Navbar() {
                 </div>
                 <div className='navbar-links'>
                     <a href='#home' className='navbar-links-a' name="style1">Home</a>
-                    <p className='navbar-links-a'  name="style2" >About</p>
-                    <p className='navbar-links-a'  name="style3" >Skills</p>
-                    <p className='navbar-links-a'  name="style4" >Experience</p>
-                    <p className='navbar-links-a'  name="style5" >My Projects</p>
-                    <p className='navbar-links-a'  name="style6" >Contact</p>
-                    <a href="https://www.canva.com/design/DAFZNCpa-Ko/bQfizvNu2nmIenf3dKQjpw/edit" target='blank'>
-                    <p className='navbar-button'  name="style7" >Resume</p>
-                    </a>
+                    <a href='#about' className='navbar-links-a'  name="style2" >About</a>
+                    <a href='#skills'className='navbar-links-a'  name="style3" >Skills</a>
+                    <a href='#experience'className='navbar-links-a'  name="style4" >Experience</a>
+                    <a href='#projects'className='navbar-links-a'  name="style5" >My Projects</a>
+                    <a href='#contact' className='navbar-links-a'  name="style6" >Contact</a>
+                    <a href="https://www.canva.com/design/DAFZNCpa-Ko/bQfizvNu2nmIenf3dKQjpw/edit" target='blank'className='navbar-button'  name="style7" >Resume</a>
                 </div>
             </nav>
         </div>

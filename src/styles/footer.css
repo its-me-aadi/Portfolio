@@ -1,5 +1,5 @@
 .footer{
-    margin-top: 0%;
+    margin: 0%;
     position: relative;
     padding: 2em 0;
     width: 100%;
@@ -10,19 +10,9 @@
     flex-direction: column;
     justify-content:space-around;
     z-index: 10;
-    /* background: #222733; */
     opacity:0.87;
     filter:Alpha(opacity=60); 
     overflow: hidden;
-    /*
-    overflow: hidden;
-    margin-top: 2em;
-    /* float: left;
-    clear:both; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* line-height: 1.0em; */
-    
 }
 .footer::before{
     content: '';

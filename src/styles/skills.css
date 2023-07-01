@@ -46,6 +46,7 @@
     border: solid 0px wheat;
     color: #ECF8F9;
     border-radius: 100%;
+    cursor: pointer;
 }
 .skills-title-button2and3{
     font-weight: 600;
@@ -58,11 +59,12 @@
     margin: 0% 0.2% 0% 0.2%;
     border: solid 0px black;
     border-radius: 100%;
+    cursor: pointer;
 }
 .skills-right-section-card{
     position: absolute;
     left:-25.3px;
-    top:-8.8px;
+    top:-8.8px; 
     width:19rem;
     height:19rem;
     opacity: 0.6;
@@ -81,11 +83,11 @@
 }
 .skills-right-section-lists{
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    margin-right: 10%;
 }
 .skills-skill-listitem{
     margin: 1.6% 0.4% 1.4% 0.4%;
-    /* border: solid 0px black ; */
     list-style: none;
     font-size: 20px;
     color: white;
@@ -94,17 +96,35 @@
 .skills-skill-listitem:hover{
     transform: scale(1.05);
     cursor: pointer;
-
 }
-  
+
+.boom-animation{
+    display: block;
+    width: 19.7rem;
+    height: 19.7rem;
+    position: relative;
+    top: 170px;
+    margin-right: 4%;
+    z-index: 2;
+  }
+  @keyframes rocketAnimation {
+    0%{
+        position: relative;
+        left: -20%;
+        top:0%;
+    }
+    100%{
+        position: relative;
+        left:105%;
+        top:-20%;
+    }
+  }
 
 @media only screen and (max-width: 600px) {
     .skills {
       display: flex;
       flex-direction: column;
      margin-top: 40%;
-      /* justify-content: center;
-      align-items: center; */
     }
     .skills-heading{
         font-weight: 800;
@@ -126,11 +146,12 @@
         width: 4rem;
         height: 4rem;
         font-weight: 400;
+        font-size: 12px;
     }
     .skills-title-button2and3{
         width: 6.4rem;
         height: 6.4rem;
         font-weight: 400;
-        font-size: 10px;
+        font-size: 12px;
     }
   }

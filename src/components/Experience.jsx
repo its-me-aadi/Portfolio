@@ -4,6 +4,7 @@ export default function Experience() {
 
     const styless = {
         borderLeft: "8px solid whitesmoke",
+        opacity:"1"
     }
     const [verticalLine, setVerticalLine] = useState({
         button1: styless,
@@ -66,12 +67,12 @@ export default function Experience() {
     }
 
     return (
-        <div className='section'>
+        <div className='section'  id="experience">
             <div className='experience-heading-and-animation'>
                 <div className='experience-heading'>
                     Experience
                 </div>
-                <div>
+                <div className='experience-animation'>
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                     <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_8y3kzptg.json" background="transparent" speed="1" style={{ width: "300px", height: "300px" }} loop autoplay></lottie-player>
                 </div>
