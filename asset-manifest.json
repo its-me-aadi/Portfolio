@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.07e33fa9.css",
+    "main.js": "/Portfolio/static/js/main.50ea643c.js",
+    "static/media/Zomato.png": "/Portfolio/static/media/Zomato.c0b1d929c8072d2079ea.png",
+    "static/media/Restuarant.png": "/Portfolio/static/media/Restuarant.d140ddf485d85ded81f4.png",
+    "static/media/Keeper.png": "/Portfolio/static/media/Keeper.52d79792fadb84c9e836.png",
+    "static/media/Secrets.png": "/Portfolio/static/media/Secrets.15e17919d6c46a3ad8eb.png",
+    "static/media/Todolist.png": "/Portfolio/static/media/Todolist.e3e2c65b59fc151593e8.png",
+    "static/media/Newsletter.png": "/Portfolio/static/media/Newsletter.132f5261114d2a8b7bdd.png",
+    "index.html": "/Portfolio/index.html",
+    "main.07e33fa9.css.map": "/Portfolio/static/css/main.07e33fa9.css.map",
+    "main.50ea643c.js.map": "/Portfolio/static/js/main.50ea643c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07e33fa9.css",
+    "static/js/main.50ea643c.js"
+  ]
+}
