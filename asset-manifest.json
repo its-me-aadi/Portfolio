@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.14773855.css",
-    "main.js": "/Portfolio/static/js/main.9a073518.js",
+    "main.css": "/Portfolio/static/css/main.a2990e81.css",
+    "main.js": "/Portfolio/static/js/main.df6ef425.js",
     "static/media/Zomato.png": "/Portfolio/static/media/Zomato.c0b1d929c8072d2079ea.png",
     "static/media/Restuarant.png": "/Portfolio/static/media/Restuarant.d140ddf485d85ded81f4.png",
     "static/media/Keeper.png": "/Portfolio/static/media/Keeper.52d79792fadb84c9e836.png",
@@ -9,11 +9,11 @@
     "static/media/Todolist.png": "/Portfolio/static/media/Todolist.e3e2c65b59fc151593e8.png",
     "static/media/Newsletter.png": "/Portfolio/static/media/Newsletter.132f5261114d2a8b7bdd.png",
     "index.html": "/Portfolio/index.html",
-    "main.14773855.css.map": "/Portfolio/static/css/main.14773855.css.map",
-    "main.9a073518.js.map": "/Portfolio/static/js/main.9a073518.js.map"
+    "main.a2990e81.css.map": "/Portfolio/static/css/main.a2990e81.css.map",
+    "main.df6ef425.js.map": "/Portfolio/static/js/main.df6ef425.js.map"
   },
   "entrypoints": [
-    "static/css/main.14773855.css",
-    "static/js/main.9a073518.js"
+    "static/css/main.a2990e81.css",
+    "static/js/main.df6ef425.js"
   ]
 }
