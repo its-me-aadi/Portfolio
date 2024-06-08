@@ -3,13 +3,14 @@ import "../styles/experience.css"
 export default function Experience() {
 
     const styless = {
-        borderLeft: "8px solid whitesmoke",
-        opacity:"1"
+        opacity:"1",
+        color:"black",
+        background:"#73CCA8"
     }
     const [verticalLine, setVerticalLine] = useState({
         button1: styless,
-        button2: {},
-        button3: {}
+        button2: {background:"rgba(80,80,80,0.8)"},
+        button3: {background:"rgba(80,80,80,0.8)"}
     })
     const [data, setData] = useState({
         role: "MERN Stack Developer (Intern) at",
@@ -25,14 +26,14 @@ export default function Experience() {
             setData({
                 role: "MERN Stack developer (Intern) at",
                 organization: "@WICTRONIX",
-                date: "06/2023 - PRESENT",
+                date: "06/2023 - 08/2023",
                 link: "https://wictronix.com/",
                 list: ["Worked on different Industrial projects.", "Woked on frontend in ReactJs.", "Worked on backend in NodeJs.", "Developed user friendly websites"]
             })
             setVerticalLine({
                 button1: styless,
-                button2: {},
-                button3: {}
+                button2: {background:"rgba(80,80,80,0.8)"},
+                button3: {background:"rgba(80,80,80,0.8)"}
             })
         }
         else if (name === 'button2') {
@@ -44,9 +45,9 @@ export default function Experience() {
                 list: ["Worked on Spring Fest's website", "Woked on frontend", "Developed user friendly website", "Fixed bugs from website."]
             })
             setVerticalLine({
-                button1: {},
+                button1: {background:"rgba(80,80,80,0.8)"},
                 button2: styless,
-                button3: {}
+                button3: {background:"rgba(80,80,80,0.8)"}
 
             })
         }
@@ -55,12 +56,12 @@ export default function Experience() {
                 role: "Frontend Web Developer at",
                 organization: "@NICHER",
                 date: "02/2023 - PRESENT",
-                link: "https://nicherindia.me/",
+                link: "https://www.linkedin.com/company/nicherindia/",
                 list: ["Build a buisness website for different services.", "Modified Template", "Hosted Website", "Added new features to website."]
             })
             setVerticalLine({
-                button1: {},
-                button2: {},
+                button1: {background:"rgba(80,80,80,0.8)"},
+                button2: {background:"rgba(80,80,80,0.8)"},
                 button3: styless
             })
         }

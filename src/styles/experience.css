@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-style:handjet;
 }
 .experience{
     color: whitesmoke;
@@ -23,9 +24,10 @@
     height: 85%;
     margin: 3% 2% 0% 2%;
     list-style: none;
-    background-color:#370486;
+    background:rgba(30,30,30,0.6);
     border-radius: 0px solid rgba(135,249,212,.06);
     border-radius: 10px;
+    z-index: 2;
 }
 .experience-right-section{
     display: flex;
@@ -34,10 +36,8 @@
     height: 85%;
     margin: 3% 2% 0% 2%;
     color: whitesmoke;
-    /* background-color: #370486; */
-    background-image: url("https://img.freepik.com/free-vector/watercolor-galaxy-background_79603-2385.jpg?w=996&t=st=1688140569~exp=1688141169~hmac=de3ab7faddb41dced5d2030246f4a2af84c9c1eeb9c9004d720ca6829c234588");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-color: #967DBE;
+    opacity: 0.9;
     border-radius: 2%;
 }
 .experience-heading-and-animation{
@@ -71,13 +71,13 @@
 }
 .a{
     text-decoration: none;
-    color:black;
+    color:#E9DAE0;
     font-weight: 1000;
     
 }
 .a:hover{
-    
-    color:#00ADB5;
+color:#FF015A;
+font-weight: 800;
 }
 
 .experience-right-section-date{
@@ -91,7 +91,7 @@
 .experience-right-section-listitems{
     list-style: none;
     font-size: 17px;
-    color: #DAFFFB;
+    color: white;
     font-weight: 600;
 }
 .experience-right-section-listitems::before{
@@ -109,6 +109,7 @@
     cursor:pointer;
     opacity: 0.6;
     border-radius: 4px;
+    z-index: 3;
 }
 
 

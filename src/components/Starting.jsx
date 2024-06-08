@@ -44,7 +44,7 @@ export default function Starting() {
           {heading.h3 && <h2 className='starting-subheading'>Gamer 🎮</h2>}
         </div>
         <div className='starting-paragraph'>
-          Hey, there, geeks! I'm a third-year undergraduate student @IIIT Surat, pursuing a bachelor's degree in electronics and communication engineering.I love doing Web D and competitive programming.Constantly keen to learn new stuff.
+          Hey, there, geeks! I'm a third-year undergraduate student @IIIT Surat, pursuing a bachelor's degree in electronics and communication engineering. I love doing Web D and competitive programming. Constantly keen to learn new stuff.
         </div>
       </div>
       <div className='starting-animation'>

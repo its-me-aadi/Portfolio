@@ -12,9 +12,8 @@ export default function About() {
             Hey world, I'm a full-Stack developer From India. I am currently pursuing my B.Tech. in
             Electronics and Communication Engineering from IIIT-SURAT. Always prefer to write code with less complexity, and always try to create the best user interface.
             <br /><br />
-            Although I have completed Full-Stack Web development, there are still many things to learn.
-            always working on new projects and learning more and more new things every day. Currently, I am working as
-            JUNIOR DEVELOPER at GDSC-IIIT-SURAT and as a MERN Stack Intern at WICTRONIX.
+            Although I have completed Full-Stack Web development, there are still many things to learn 
+            always working on new projects and learning more and more new things every day.
             <br /><br />
             Currently Exploaring Data Structures and Algorithm.Alway eager to learn new thing.
           </p>

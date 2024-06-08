@@ -3,8 +3,8 @@ import "../styles/skills.css"
 export default function Skills() {
 
   const profSkills = ["Proficient Skills", "C/C++", "JS", "HTML", "CSS", "NodeJs", "REST API"];
-  const frameworks = ["Frameworks and Libraries", "React.Js", "Express.Js", "jQuery", "EJS"];
-  const database = ["Database", "SQL", "MongoDB"];
+  const frameworks = ["Frameworks and Libraries", "React.Js", "AngularJs","Redux","Express.Js", "jQuery", "EJS"];
+  const database = ["Database", "SQL", "MongoDB","","Firebase"];
   const tools = ["Platforms and Tools", "Github", "Atlas", "Git", "Postman"];
   const [skills, setSkills] = useState(profSkills);
   const clickedButton = {
@@ -17,7 +17,7 @@ export default function Skills() {
   const animationOnClick = {
     rotate: "70deg",
     animationName: "rocketAnimation",
-    animationDuration: "2s",
+    animationDuration: "1s",
     zIndex:"3"
   }
   const [animationStyle, setAnimationStyle] = useState(animationBeforeClick);
@@ -49,8 +49,8 @@ export default function Skills() {
           button4: {},
           [name]: clickedButton
         })
-      },2000);
-    }, 1900);
+      },500);
+    }, 950);
     
 
   }
@@ -75,7 +75,7 @@ export default function Skills() {
             <button type='button' onClick={HandleClick} name='button4' style={clickStyles.button4} className="skills-title-button1and4">Database</button>
           </div>
         </div>
-        <div style={animationStyle} className='animationBeforeClick'>
+        <div style={animationStyle} className='rocket-animation'>
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
           <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_4tg3fb79.json" background="transparent" speed="1" style={{ width: "200px", height: "200px" }} loop autoplay></lottie-player>
         </div>
