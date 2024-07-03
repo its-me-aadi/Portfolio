@@ -16,7 +16,7 @@ export default function Navbar() {
                     <a href='#experience' className='navbar-links-a' name="style4" >Experience</a>
                     <a href='#projects' className='navbar-links-a' name="style5" >My Projects</a>
                     <a href='#contact' className='navbar-links-a' name="style6" >Contact</a>
-                    <a href="https://drive.google.com/file/d/13OgeyguxOtQj_YEpcHWgzbdKi7mRxhMq/view?usp=drive_link" target='blank' className='navbar-button' name="style7" >Resume</a>
+                    <a href="https://drive.google.com/file/d/1jzt6znsyN4sxPqHaH2O1OJY1HJbOQlvy/view?usp=sharing" target='blank' className='navbar-button' name="style7" >Resume</a>
                 </div>
                 <div className='icon-div-icon'>
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
